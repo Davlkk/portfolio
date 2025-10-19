@@ -135,11 +135,11 @@ O portfólio é **100% responsivo** e otimizado para:
 
 **Davi Matheus**
 
-- GitHub: [@seuusuario](https://github.com/Davlkk)
+- GitHub: [@Davlkk](https://github.com/Davlkk)
 - LinkedIn: [@seuusuario](https://linkedin.com/in/seuusuario)
-- Behance: [@seuusuario](https://www.behance.net/davimateusabreu)
-- Instagram: [@seuusuario](https://instagram.com/davi_matehus_)
-- Email: seu@email.com
+- Behance: [@davimateusabreu](https://www.behance.net/davimateusabreu)
+- Instagram: [@davi_matehus_](https://instagram.com/davi_matehus_)
+- Email: davimawpro@gmail.com
 
 ---
 
