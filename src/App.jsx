@@ -454,7 +454,7 @@ const Portfolio = () => {
                 {cors.image && (
                   <details className="mt-4">
                     <summary className="cursor-pointer text-[#00B8D9] hover:text-[#1F6FEB] transition-colors font-semibold">
-                      Ver imagem
+                      Ver certificado
                     </summary>
                     <img
                       src={cors.image}
