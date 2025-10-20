@@ -24,7 +24,7 @@ import meetUp from "./assets/certificado_meetup.png";
 import feintecCert2024 from "./assets/feintex.jfif";
 import fotoFebic2025 from "./assets/febicx.png";
 import ipv6Cert from "./assets/ipv6.png";
-import batalhaNaval from "./assets/navio.png"
+import batalhaNaval from "./assets/navio.png";
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -208,6 +208,7 @@ const Portfolio = () => {
         "Canva",
       ],
       link: "https://www.behance.net/gallery/236820369/Projeto-VASPP",
+      link2: "https://github.com/Davlkk/VASPP-React",
       image: capaVaspp,
     },
     {
@@ -235,9 +236,10 @@ const Portfolio = () => {
       link: "https://www.behance.net/gallery/236788649/Redesign-da-logo-MARQUESPAN",
       image: capaMarquespan,
     },
-        {
+    {
       name: "Batalha Naval em Java",
-      description: "Trabalho escolar feito em dupla, possui o intuito de criar um jogo de batalha naval utilizando a linguagem Java.",
+      description:
+        "Trabalho escolar feito em dupla, possui o intuito de criar um jogo de batalha naval utilizando a linguagem Java.",
       technologies: ["Java"],
       link: "https://github.com/Davlkk/Batalha-Naval",
       image: batalhaNaval,
@@ -582,6 +584,17 @@ const Portfolio = () => {
                   >
                     Ver projeto <ArrowRight size={16} />
                   </a>
+                  {project.link2 && (
+                    <a
+                      href={project.link2}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-[#00B8D9] hover:gap-4 transition-all"
+                    >
+                      Ver projeto no github
+                      <ArrowRight size={16} />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
