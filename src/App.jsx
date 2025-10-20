@@ -255,9 +255,9 @@ const Portfolio = () => {
 
     {
       id: 2,
-      title: "Athleta - designer de camisas",
+      title: "Camisas futevôlei",
       description:
-        "Fiz um lote com cerca de 5 camisas para a Athleta de Taquara/RS, por meio de um representante da G7 futevolei.",
+        "Fiz um lote com cerca de 5 uniformes para a G7 futevolei de Taquara/RS, com a fornecedora sendo a Athleta.",
       period: "2024 - 2025",
     },
   ];
@@ -421,7 +421,7 @@ const Portfolio = () => {
                 Também sei utilizar alguns frameworks para javascript, como
                 React e Angular, além de html e css. No meio da programação
                 tenho experiência com Java e Python.<br></br>
-                Gosto de jogos digitais, filmes, séries e esportes, sempre vejo
+                Gosto de jogos digitais, música, filmes e esportes, sempre vejo
                 as coisas de forma crítica. Considero que tenho uma grande
                 paciência e sei lidar com a pressão.
               </p>
