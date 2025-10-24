@@ -25,6 +25,8 @@ import feintecCert2024 from "./assets/feintex.jfif";
 import fotoFebic2025 from "./assets/febicx.png";
 import ipv6Cert from "./assets/ipv6.png";
 import batalhaNaval from "./assets/navio.png";
+import summit from "./assets/summit.png";
+import oktober from "./assets/oktober.jpg";
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -95,6 +97,7 @@ const Portfolio = () => {
       "Python",
       "SQL",
       "JavaScript",
+      "TypeScript",
       "HTML",
       "CSS",
       "React",
@@ -158,7 +161,7 @@ const Portfolio = () => {
       title: "Taquara Summit 2025",
       desc: "Palestras incríveis e espaço para networking.",
       date: "08/2025",
-      image: null,
+      image: summit,
     },
     {
       title: "FEBIC 2025",
@@ -170,7 +173,7 @@ const Portfolio = () => {
       title: "Oktober Summit 2025",
       desc: "Evento realizado no Alles Blau shopping em Igrejinha/RS, grande local de aprendizado e network.",
       date: "10/2025",
-      image: "",
+      image: oktober,
     },
     {
       title: "FEINTEC 2025",
@@ -186,12 +189,12 @@ const Portfolio = () => {
       description: "TCC desenvolvido durante o ensino médio.",
       technologies: [
         "React Native",
-        "javascript",
+        "TypeScript",
         "Figma",
         "PostgreSQL",
         "Supabase",
       ],
-      link: "",
+      link: "https://github.com/Heir0t/TesteMetavision",
       image: capaMetavision,
     },
     {
@@ -200,7 +203,7 @@ const Portfolio = () => {
         "Projeto escolar envolvendo a criação de um MVP baseado em uma ideia de startup feita em aula.",
       technologies: [
         "React",
-        "javascript",
+        "TypeScript",
         "Vite",
         "Tailwind",
         "Corel Draw",
@@ -215,7 +218,7 @@ const Portfolio = () => {
       name: "INFOMOVIES",
       description:
         "Site de filmes feito com o intuito de consumir uma api (fornecida pelo professor) utilizando React.",
-      technologies: ["React", "javascript", "HTML", "CSS"],
+      technologies: ["React", "JavaScript", "HTML", "CSS"],
       link: "https://github.com/Davlkk/API-Filmes-React",
       image: capaInfomovies,
     },
@@ -224,7 +227,7 @@ const Portfolio = () => {
       name: "Museu do rock",
       description:
         "Blog feito em aula consumindo uma api (fornecida pelo professor) com AngularJS.",
-      technologies: ["Angular", "javascript", "HTML", "CSS", "Corel Draw"],
+      technologies: ["Angular", "JjavaScript", "HTML", "CSS", "Corel Draw"],
       link: "https://github.com/Davlkk/Blog-LP",
       image: capaMuseu,
     },
@@ -378,7 +381,7 @@ const Portfolio = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/davi-matheus-202958394 "
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#00B8D9] transition-colors"
@@ -734,7 +737,7 @@ const Portfolio = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/seuusuario"
+                href="https://www.linkedin.com/in/davi-matheus-202958394 "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-3 bg-[#0A192F] border-2 border-[#1F6FEB] rounded-lg p-6 hover:border-[#00B8D9] transition-all glow-effect group"
@@ -780,7 +783,7 @@ const Portfolio = () => {
                   <span className="text-sm">GitHub</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/seuusuario"
+                  href="https://www.linkedin.com/in/davi-matheus-202958394 "
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 hover:text-[#00B8D9] transition-colors"
@@ -809,7 +812,7 @@ const Portfolio = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/davi-matheus-202958394 "
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#00B8D9] transition-colors"
