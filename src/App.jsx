@@ -27,6 +27,10 @@ import ipv6Cert from "./assets/ipv6.png";
 import batalhaNaval from "./assets/navio.png";
 import summit from "./assets/summit.png";
 import oktober from "./assets/oktober.jpg";
+import gerenciador from "./assets/gerenciador.png"
+import feintec2 from "./assets/feintec2.jfif"
+import dashboard from "./assets/dashboard.png"
+import camisas from "./assets/camisas.jpg"
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -95,6 +99,7 @@ const Portfolio = () => {
     languages: [
       "Java",
       "Python",
+      "Pandas",
       "SQL",
       "JavaScript",
       "TypeScript",
@@ -103,7 +108,6 @@ const Portfolio = () => {
       "React",
       "React Native",
       "Node.js + Express",
-      "Angular",
       "Bootstrap",
       "Tailwind",
       "Vite",
@@ -126,7 +130,6 @@ const Portfolio = () => {
       "GitHub",
       "Supabase",
       "VirtualBox",
-      "FlutterFlow",
       "Trello",
       "Notion",
     ],
@@ -177,9 +180,9 @@ const Portfolio = () => {
     },
     {
       title: "FEINTEC 2025",
-      desc: "Continuação da jornada de aprimoramento e inovação.",
+      desc: "Continuação da jornada do projeto, conseguimos o 3º lugar na categoria de inovação tecnológica.",
       date: "11/2025",
-      image: "",
+      image: feintec2,
     },
   ];
 
@@ -227,7 +230,7 @@ const Portfolio = () => {
       name: "Museu do rock",
       description:
         "Blog feito em aula consumindo uma api (fornecida pelo professor) com AngularJS.",
-      technologies: ["Angular", "JjavaScript", "HTML", "CSS", "Corel Draw"],
+      technologies: ["Angular", "JavaScript", "HTML", "CSS", "Corel Draw"],
       link: "https://github.com/Davlkk/Blog-LP",
       image: capaMuseu,
     },
@@ -246,6 +249,27 @@ const Portfolio = () => {
       technologies: ["Java"],
       link: "https://github.com/Davlkk/Batalha-Naval",
       image: batalhaNaval,
+    },
+    {
+      name: "Gerenciador de tarefas",
+      description: "criação de um gerenciador de tarefas utilizando Javascript, com documentação da api feita com Swagger",
+      technologies: ["JavaScript", "Swagger", "Prettier"],
+      link: "https://github.com/Davlkk/cria-o-trabalho",
+      image: gerenciador,
+    },
+      {
+      name: "Dashboard - Netflix vs Amazon Prime Video",
+      description: "Criação de um dashboard utilizando Pandas e Streamlit.",
+      technologies: ["Python", "Pandas", "Streamlit", "Plotly"],
+      link: "https://github.com/Davlkk/dashboard",
+      image: dashboard,
+    },
+      {
+      name: "Camisas feitas para o G7futevolei",
+      description: "Camisas feitas para um time de futevolei da cidade.",
+      technologies: ["CorelDraw"],
+      link: "https://www.behance.net/gallery/236873991/Camisas-Athleta",
+      image: camisas,
     },
   ];
 
@@ -424,7 +448,7 @@ const Portfolio = () => {
                 ensino médio. Tenho experiência avançada com Corel Draw e outros
                 softwares de design gráfico (Photoshop, Illustrator).<br></br>
                 Também sei utilizar alguns frameworks para javascript, como
-                React e Angular, além de html e css. No meio da programação
+                React, além de html e css. No meio da programação
                 tenho experiência com Java e Python.<br></br>
                 Gosto de jogos digitais, música, filmes e esportes, sempre vejo
                 as coisas de forma crítica. Considero que tenho uma grande
