@@ -27,10 +27,14 @@ import ipv6Cert from "./assets/ipv6.png";
 import batalhaNaval from "./assets/navio.png";
 import summit from "./assets/summit.png";
 import oktober from "./assets/oktober.jpg";
-import gerenciador from "./assets/gerenciador.png"
-import feintec2 from "./assets/feintec2.jfif"
-import dashboard from "./assets/dashboard.png"
-import camisas from "./assets/camisas.jpg"
+import gerenciador from "./assets/gerenciador.png";
+import feintec2 from "./assets/feintec2.jfif";
+import dashboard from "./assets/dashboard.png";
+import camisas from "./assets/camisas.jpg";
+import cidadaoReporta from "./assets/cidadaoReporta.png";
+import cidadaoReportaAdm from "./assets/cidadaoReportaAdm.png";
+import TaquaraResolve from "./assets/TaquaraResolve.png";
+import meet from "./assets/meet.jfif";
 
 const Portfolio = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -72,25 +76,17 @@ const Portfolio = () => {
 
   const courses = [
     {
-      title: "EMEF Idalino Pedro da Silva",
-      description:
-        "Escola situada em Parobé/RS, onde estudei durante todo meu ensino fundamental.",
-      period: "2013-2022",
-      image: null,
-    },
-
-    {
       title: "ETEC Monteiro Lobato",
       description:
         "Onde estudei durante todo meu ensino médio — curso Informática (cursando o 3º ano)",
-      period: "2023-2025",
+      period: "2023-2026",
       image: null,
     },
 
     {
       title: "Curso IPV6 - NIC.BR",
       description: "Curso de ipv6 certificado pelo nic.br.",
-      period: "2025-2025",
+      period: "2025",
       image: ipv6Cert,
     },
   ];
@@ -149,7 +145,7 @@ const Portfolio = () => {
       image: feintecCert2024,
     },
     {
-      title: "Meetup dos Devs do Paranhana",
+      title: "7º Meetup dos Devs do Paranhana",
       desc: "Evento realizado pela comunidade dos devs do paranhana, local de muito aprendizado e network de qualidade.",
       date: "05/2025",
       image: meetUp,
@@ -184,6 +180,12 @@ const Portfolio = () => {
       date: "11/2025",
       image: feintec2,
     },
+    {
+      title: "8º Meetup dos Devs do Paranhana",
+      desc: "Encontro focado no leetcode, aprendi diversas características únicas de linguagens pouca conhecidas e algumas já estabelecidadas no mercados.",
+      date: "12/2025",
+      image: meet,
+    },
   ];
 
   const projects = [
@@ -197,7 +199,8 @@ const Portfolio = () => {
         "PostgreSQL",
         "Supabase",
       ],
-      link: "https://github.com/Heir0t/TesteMetavision",
+      link: "https://metavisionlp.vercel.app",
+      link2: "https://github.com/Heir0t/TesteMetavision",
       image: capaMetavision,
     },
     {
@@ -252,24 +255,54 @@ const Portfolio = () => {
     },
     {
       name: "Gerenciador de tarefas",
-      description: "criação de um gerenciador de tarefas utilizando Javascript, com documentação da api feita com Swagger",
+      description:
+        "criação de um gerenciador de tarefas utilizando Javascript, com documentação da api feita com Swagger",
       technologies: ["JavaScript", "Swagger", "Prettier"],
       link: "https://github.com/Davlkk/cria-o-trabalho",
       image: gerenciador,
     },
-      {
+    {
       name: "Dashboard - Netflix vs Amazon Prime Video",
       description: "Criação de um dashboard utilizando Pandas e Streamlit.",
       technologies: ["Python", "Pandas", "Streamlit", "Plotly"],
       link: "https://github.com/Davlkk/dashboard",
       image: dashboard,
     },
-      {
+    {
       name: "Camisas feitas para o G7futevolei",
       description: "Camisas feitas para um time de futevolei da cidade.",
       technologies: ["CorelDraw"],
       link: "https://www.behance.net/gallery/236873991/Camisas-Athleta",
       image: camisas,
+    },
+    {
+      name: "Cidadão reporta",
+      description:
+        "Projeto feito com uma equipe de amigos, sendo um aplicativo mobile para cidadãos reportarem problemas urbanos de forma rápida e fácil. O projeto é separado em 3 partes: cidadão (cidadão reporta), prefeituras (cidadao reporta-ADM) e servidores públicos (Taquara Resolve). Nesta parte fiquei responsável pelo design e desenvolvimento do aplicativo.",
+      technologies: ["React Native", "TypeScript", "Expo", "Supabase"],
+      link: "https://github.com/Felbit80/Cidadao-Reporta",
+      image: cidadaoReporta,
+    },
+    {
+      name: "Cidadão reporta-ADM",
+      description:
+        "Nesta parte fiquei responsável pelo design e auxílio no desenvolvimento. ",
+      technologies: ["React", "TypeScript", "Vite", "Tailwind", "Supabase"],
+      link: "https://github.com/Felbit80/Cidadao-Reporta-ADM",
+      image: cidadaoReportaAdm,
+    },
+    {
+      name: "Taquara Resolve",
+      description: "Nesta parte fiquei responsável pelo design.",
+      technologies: [
+        "React Native",
+        "TypeScript",
+        "Expo",
+        "Supabase",
+        "Nativewind",
+      ],
+      link: "https://github.com/Felbit80/Taquara-Resolve",
+      image: TaquaraResolve,
     },
   ];
 
@@ -278,7 +311,7 @@ const Portfolio = () => {
       id: 1,
       title: "Gráfica Gaúcha - designer gráfico assistente",
       description:
-        "Trabalhei por meio período durante algum tempo como designer gráfico na Gráfica Gaúcha de parobé/RS.",
+        "Trabalhei por meio período durante algum tempo como designer gráfico na Gráfica Gaúcha de Parobé/RS.",
       period: "2022 - 2025",
     },
 
@@ -447,9 +480,10 @@ const Portfolio = () => {
                 Monteiro Lobato, onde curso Informática, estando no 3º ano do
                 ensino médio. Tenho experiência avançada com Corel Draw e outros
                 softwares de design gráfico (Photoshop, Illustrator).<br></br>
-                Também sei utilizar alguns frameworks para javascript, como
-                React, além de html e css. No meio da programação
-                tenho experiência com Java e Python.<br></br>
+                Também sei utilizar algumas ferramentas para javascript e
+                typescript, como React e Next, além de html e css. No meio da
+                programação tenho pequenas experiências com Java e Python.
+                <br></br>
                 Gosto de jogos digitais, música, filmes e esportes, sempre vejo
                 as coisas de forma crítica. Considero que tenho uma grande
                 paciência e sei lidar com a pressão.
